@@ -61,7 +61,7 @@ services:
       - PARTKEEPR_USERS_LIMIT
       - PARTKEEPR_SECRET
     ports:
-      - "8080:80"
+      - "8080:85"
     volumes:
       - partkeepr-conf:/var/www/html/app/config
       - partkeepr-data:/var/www/html/data
